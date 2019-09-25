@@ -28,7 +28,9 @@ function increment_counter(){
 
 function previous(){
         decrement_counter(); 
-	document.getElementById('photo').src = images[counter];
+	//document.getElementById('photo').src = images[counter];
+	document.getElementById('photo').src = img3;
+	alert('here');
 }
 
 function next(){
