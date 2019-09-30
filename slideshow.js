@@ -1,11 +1,11 @@
-let img1 = 'images/g1.jpeg'
-let img2 = 'images/g2.png'
-let img3 = 'images/g3.jpeg'
-let img4 = 'images/g4.jpeg'
-let img5 = 'images/g5.png'
+var img1 = 'images/g1.jpeg';
+var img2 = 'images/g2.png';
+var img3 = 'images/g3.jpeg';
+var img4 = 'images/g4.jpeg';
+var img5 = 'images/g5.png';
 	    
-let images = [img1, img2, img3, img4, img5]);	    
-let counter = 0;
+var images = [img1, img2, img3, img4, img5];	    
+var counter = 0;
 
 function decrement_counter(){
 	if (counter == 0){
@@ -28,13 +28,10 @@ function increment_counter(){
 
 function previous(){
         decrement_counter(); 
-	//document.getElementById('photo').src = images[counter];
-	document.getElementById('photo').src = img3;
-	alert('here');
+	document.getElementById('photo').src = images[counter];
 }
 
 function next(){
 	increment_counter();
 	document.getElementById('photo').src = images[counter];
-}
 }
