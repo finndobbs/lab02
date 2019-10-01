@@ -14,3 +14,9 @@ body{
 	background-color: #AAA;
 }
 
+#border{
+	float:left;
+}
+#background{
+	float:right;
+}
