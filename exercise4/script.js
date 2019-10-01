@@ -8,3 +8,12 @@ function setBorder(){
 	border.style.borderColor = 'rgb('+red+', '+green+', '+blue+')';
 	border.style.borderWidth = width+'px';
 }
+
+function setBack(){
+	let back = document.getElementById('paragraph')
+	let red = document.getElementById('back_red').value;
+	let green = document.getElementById('back_green').value;
+	let blue = document.getElementById('back_blue').value;
+
+	back.style.backgroundColor = 'rgb('+red+', '+green+', '+blue+')';
+}
