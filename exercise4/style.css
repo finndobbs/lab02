@@ -1,0 +1,22 @@
+p {
+	padding:30px 0;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	border: 3px solid #666;
+	background-color: #AAA;
+
+	font-family:arial;
+	font-size:20pt;
+}
+
+body{
+	background-color: #AAA;
+}
+
+#border{
+	float:left;
+}
+#background{
+	float:right;
+}
